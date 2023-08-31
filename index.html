@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Arbys Color Guessing Game</title>
+  </head>
+  <body>
+    <!-- Color Guessing Game Card -->
+    <div class="container mt-4">
+      <div class="card">
+        <div class="card-body">
+          <h1 class="text-center">
+            The RGB Color Guessing Game<br />
+            <span id="colorDisplay">RGB</span>
+          </h1>
+          <div id="stripe" class="text-center">
+            <button id="reset">New Colors</button>
+            <span id="message"></span>
+            <button id="easyButton">Easy</button>
+            <button id="hardButton" class="selected">Hard</button>
+          </div>
+          <div id="container" class="text-center">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section Card -->
+    <div class="container mt-4">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Contact Me</h2>
+              <p class="mail">
+                Connect with me directly:
+                <i class="fas fa-arrow-right"></i> oladejoabigeal105@gmail.com
+              </p>
+              <!-- Add more contact details as needed -->
+            </div>
+            <div class="col-md-6">
+              <h2>Find Me On</h2>
+              <a
+                href="https://www.linkedin.com/in/afolabi-abigeal-4b1604137/"
+                target="_blank"
+                class="btn btn-primary"
+                ><i class="fab fa-linkedin"></i> Linkedin</a
+              >
+              <a
+                href="https://medium.com/@houseofarby"
+                target="_blank"
+                class="btn btn-primary"
+                ><i class="fab fa-medium"></i> Medium</a
+              >
+              <a
+                href="https://github.com/arbythecoder"
+                target="_blank"
+                class="btn btn-primary"
+                ><i class="fab fa-github"></i> Github</a
+              >
+              <!-- Add more social profile links as needed -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom JS -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
